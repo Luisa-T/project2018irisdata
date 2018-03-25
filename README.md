@@ -7,7 +7,8 @@ Contents:
 4. Investigations conducted and findings
 5. Tables and graphics
 6. References
-1. The Iris Dataset
+#
+1. A brief overview of the origin of the Iris Dataset
 The Iris Dataset was first discussed by Ronald Fisher, a British statistician and biologist[1]. He first published it in his article "The use of multiple measurements in taxonomic problems" in 1936[1]. It was collected by Edgar Anderson (therefore also sometimes called the Anderson's Iris dataset)[1]. 50 samples each were collected for the dataset from samples of Iris setosa, Iris virginica, and Iris versicolor[1].
 The dataset contains four features for each sample:
 - the length of the sepals
