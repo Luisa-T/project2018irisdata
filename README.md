@@ -4,6 +4,7 @@ Contents:
 1. A brief overview of the origin of the Iris Dataset
 2. Why is it important for Data Analytics
 3. Python code
+3.1 average.py calculates the average of each column and displays them in one row.
 4. Investigations conducted and findings
 5. Tables and graphics
 6. References
@@ -15,6 +16,7 @@ The dataset contains four features for each sample:
 - the width of the sepals
 - the length of the petals
 - the width of the petals[1]
+
 The class of iris could be considered a fifth feature within the dataset[1].
 Based on the data, Fisher was able to distinguish between the class using a linear discriminant model[1] because it is not possible to separate the class  using a linear model[3].
 
