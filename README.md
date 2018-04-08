@@ -4,7 +4,9 @@ Contents:
 1. A brief overview of the origin of the Iris Dataset
 2. Why is it important for Data Analytics
 3. Python code
-3.1 average.py calculates the average of each column and displays them in one row.
+3.1 average.py calculates the average of each column and displays them in one row
+3.2 classaverage.py is meant to calculate the average of each class of Irises
+3.3 mean.py is meant to calculate the mean of each feature
 4. Investigations conducted and findings
 5. Tables and graphics
 6. References
