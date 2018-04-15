@@ -4,9 +4,10 @@ Contents:
 1. A brief overview of the origin of the Iris Dataset
 2. Why is it important for Data Analytics
 3. Python code
-3.1 average.py calculates the average of each column and displays them in one row
-3.2 classaverage.py is meant to calculate the average of each class of Irises
-3.3 mean.py is meant to calculate the mean of each feature
+  3.1 average.py calculates the average of each column and displays them in one row
+  3.2 classaverage.py is meant to calculate the average of each class of Irises
+  3.3 The file median.py calculates three values: a) the median, b) the minimum value, and c) the maximum value of each column as well as broken down to the flower classes.
+  3.4 The file deviation.py calculates the standard deviation of each column in the dataset and then also breaks it down by flower class.
 4. Investigations conducted and findings
 5. Tables and graphics
 6. References
