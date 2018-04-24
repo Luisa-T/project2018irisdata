@@ -14,5 +14,5 @@ def classcalculator(z):
         c = c + float(line.split(',') [2])
         d = d + float(line.split(',') [3])
         i = i + 1 # counter for number of lines
-    return ('{:8}{:8}{:8}{:8}'.format(str(average(a, i)), str(average(b, i)), str(average(c, i)), str(average(d, i))))
+    return ('{:8}{:8}{:8}{:8}'.format(str(average(a, i)), str(average(b, i)), str(average(c, i)), str(average(d, i)))) # returns a string calculating the average for each position (string due to the error without it, solved using stack overflow)
 print("This is the average for iris-setosa", classcalculator('setosa'), '\n', "This is the average for iris-versicolor", classcalculator('versicolor'), '\n', "This is the average for iris-virginica", classcalculator('virginica'))

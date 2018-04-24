@@ -11,7 +11,7 @@ def sorting(z): # function to sort the values in each column
         c.append(line.split(',')[2])
         d.append(line.split(',')[3])
         i = i + 1 # counter for number of lines
-    a.sort()
+    a.sort() # sorts the values in each column from low to high
     b.sort()
     c.sort()
     d.sort()
@@ -30,7 +30,7 @@ def sorting(z): # function to sort the values in each column
   return (mina, maxa, mediana, '\n', minb, maxb, medianb, '\n', minc, maxc, medianc, '\n', mind, maxd, mediand)
 
 
-print(sorting('ris')) # prints the minimum, maximum and median for the whole dataset by columns
-print(sorting('setosa')) # prints minimum, maximum, and median for each column by flower class
-print(sorting('versicolor'))
-print(sorting('virginica'))
+print("This is the minimum value, maximum value, and median of the complete dataset", sorting('ris')) # prints the minimum, maximum and median for the whole dataset by columns
+print("This is the minimum, maximum, and median of Iris setosa", sorting('setosa')) # prints minimum, maximum, and median for each column by flower class
+print("This is the minimum, maximum, and median of Iris versicolor", sorting('versicolor'))
+print("This is the minimum, maximum, and median of Iris Virginica", sorting('virginica'))

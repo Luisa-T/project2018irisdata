@@ -32,7 +32,7 @@ def stdvar(z): # function to valcuate standard variation of each line
         c = c + ((float(line.split(',')[2]) - avec)**2)
         d = d + ((float(line.split(',')[3]) - aved)**2)
     return (round((a/(i-1))**0.5, 5), round((b/(i-1))**0.5, 5), round((c/(i-1))**0.5, 5), round((d/(i-1))**0.5, 5)) # returns standard deviation of each column rounding to 5 decimal points
-print (stdvar('setosa')) # print standard deviation by class
-print (stdvar('versicolor'))
-print (stdvar('virginica'))
+print ("This is the standard deviation for iris setosa", stdvar('setosa')) # print standard deviation by class
+print ("This is the standard deviation for iris versicolor", stdvar('versicolor'))
+print ("This is the standard deviation for Iris virginica", stdvar('virginica'))
 # the calculation for the standard variation follows the formula described on wikipedia, the way the calculation is written I have found and adapted from stack overflow (to use times 0.5 instead of sqrt)

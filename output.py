@@ -3,7 +3,7 @@
 def average(x, y): # function for average
   return (round((x / y),4)) # rounding to the floating number
 
-def classcalculator(z): # function to calculate the calss
+def classcalculator(z): # function to calculate the class
   with open("irisdata.csv") as f:
     a = 0.0; b = 0.0; c = 0.0; d = 0.0; i = 0 # variables replacing the position in the dataset
     for line in f:
@@ -44,7 +44,7 @@ def sorting(z): # function to sort the values in each column
         c.append(line.split(',')[2])
         d.append(line.split(',')[3])
         i = i + 1 # counter for number of lines
-    a.sort()
+    a.sort() # sorting the columns for values in each row from low to high
     b.sort()
     c.sort()
     d.sort()
@@ -61,7 +61,7 @@ def sorting(z): # function to sort the values in each column
     maxd = d[i-1]
     mediand = d[int(i/2)]
   return (mina, maxa, mediana, minb, maxb, medianb, minc, maxc, medianc, mind, maxd, mediand)
-
+# I am using print statements for each of the rows to be displayed instead of for statements, I could also use for statements but the below also displays the data nicely in a table, therefore I am leaving them as print statements
 print ('{:12}{:12}{:12}{:12}{:12}{:12}{:12}'.format("Name", "Values", "Average", "Minimum", "Maximum", "Median", "Standard-Dev"))
 print ('{:12}{:12}{:12}{:12}{:12}{:12}{:12}'.format("All", "1", str(classcalculator('ris')[0]), str(sorting('ris')[0]), str(sorting('ris')[1]), str(sorting('ris')[2]), str(stdvar('ris')[0])))
 print ('{:12}{:12}{:12}{:12}{:12}{:12}{:12}'.format("All", "2", str(classcalculator('ris')[1]), str(sorting('ris')[3]), str(sorting('ris')[4]), str(sorting('ris')[5]), str(stdvar('ris')[1])))
