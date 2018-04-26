@@ -5,6 +5,28 @@ Project task 2018 for the module Programming and Scripting, GMIT.
 Contents:
 
 1. A brief overview of the origin of the Iris Dataset
+2. Why is it important for Data Analytics
+3. Python code
+4. Tables and graphics
+5. Investigations conducted and findings
+6. References
+
+1. A brief overview of the origin of the Iris Dataset
+The Iris Dataset was first discussed by Ronald Fisher, a British statistician and biologist[1]. He first published it in his article "The use of multiple measurements in taxonomic problems" in 1936[1]. It was collected by Edgar Anderson (therefore also sometimes called the Anderson's Iris dataset)[1]. 50 samples each were collected for the dataset from samples of Iris setosa, Iris virginica, and Iris versicolor[1].
+
+The dataset contains four features for each sample:
+
+- the length of the sepals
+ in centimeters
+- the width of the sepals
+ in centimeters
+- the length of the petals
+ in centimeters
+- the width of the petals in centimeters [1]
+
+
+The class of iris could be considered a fifth feature within the dataset[1].
+Based on the data, Fisher was able to distinguish between the class using a linear discriminant model[1] because it is not possible to separate the class  using a linear model[3].
 
 2. Why is it important for Data Analytics
 
@@ -28,6 +50,9 @@ The column values stands for the four features:
 4. Tables and graphics
 
 col1.png-col4.png are each column for the whole dataset
+setosa1.png-setosa4.png is a graphic representation of each column for iris setosa
+versicolor1.png-versicolor4.png is a graphic representation of each column for iris versicolor
+virginica1.png-virginica4.png is a graphic representation of each column for iris virginica
 
 5. Investigations conducted and findings
 
@@ -45,27 +70,8 @@ Lastly, I used deviation.py to calculate the standard deviation of the dataset:
 This is the standard deviation for iris setosa (0.35249, 0.38102, 0.17351, 0.10721)
 This is the standard deviation for iris versicolor (0.51617, 0.3138, 0.46991, 0.19775)
 This is the standard deviation for Iris virginica (0.63588, 0.3225, 0.55189, 0.27465)
+While the average value for sepal length is calculated as 5.8433 we can see from the graph col1.png that there are two peeks, one around 5.0 but another one which is actually higher at 6.0-6.3. For the sepal width the average seems to be fairly accurate compared to col2.png. For petal length, comparing to col3.png the average seems even more scewed since most values are below the average value calculated and the same goes for petal width average compared to col4.png.
 6. References
-
-
-#1. A brief overview of the origin of the Iris Dataset
-
-The Iris Dataset was first discussed by Ronald Fisher, a British statistician and biologist[1]. He first published it in his article "The use of multiple measurements in taxonomic problems" in 1936[1]. It was collected by Edgar Anderson (therefore also sometimes called the Anderson's Iris dataset)[1]. 50 samples each were collected for the dataset from samples of Iris setosa, Iris virginica, and Iris versicolor[1].
-
-The dataset contains four features for each sample:
-
-- the length of the sepals
-
-- the width of the sepals
-
-- the length of the petals
-
-- the width of the petals[1]
-
-
-The class of iris could be considered a fifth feature within the dataset[1].
-Based on the data, Fisher was able to distinguish between the class using a linear discriminant model[1] because it is not possible to separate the class  using a linear model[3].
-
 
 
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set
